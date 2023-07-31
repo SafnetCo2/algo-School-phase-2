@@ -9,6 +9,7 @@ html{
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--dark);
+    overflow: hidden;
 }
 body{
     background-color: #ccc;
@@ -164,6 +165,7 @@ footer{
 }
 @media(max-width: 700px){
     .top-container{
+        display: block;
         grid-template-areas:'showcase showcase'
         'top-box-a top-box-b' ;
     }
