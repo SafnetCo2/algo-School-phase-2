@@ -18,7 +18,7 @@ function closesidebar(){
 
 var barChartOptions = {
     series: [{
-    data: [10,8,6,2]
+    data: [10,8,6,2,1]
   }],
     chart: {
     type: 'bar',
@@ -40,7 +40,7 @@ var barChartOptions = {
     bar: {
         distributed: true,
 
-      borderRadius: 4,
+      borderRadius: 5,
       horizontal: true,
       columnWidth: '40%',
     }

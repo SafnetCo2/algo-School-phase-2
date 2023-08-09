@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    background-color: #DADADA;
 
 }
 .grid-container{
@@ -17,6 +18,22 @@ body{
     vertical-align: middle;
     line-height: 1px;
 }
+.text-primary{
+    color: #f73e0b;
+    font-weight: 900;
+}
+.text-green{
+    color: green;
+}
+.text-orange{
+    color: #DBAE58;
+}
+.text-red{
+    color: #f73e0b;
+}
+.text-blue{
+    color: #0091D5;
+}
 .menu-icon{
     display: none;
 }
@@ -24,7 +41,8 @@ body{
     
     grid-area: header;
     height: 70px;
-    background-color: rgb(152, 138, 120);
+    background-color: #0091D5;
+    color: #000;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,10 +52,21 @@ body{
 #sidebar{
 
     grid-area: sidebar;
-    height: 100vh;
+    height: 100%;
     overflow-y: auto;
     transition: all 0.5s;
+    background-color: #0091D5;
+    color: #000;
 
+}
+
+.font-weight-bold{
+    font-weight: bold;
+    padding: 10px;
+     
+    color: #000;
+    
+            
 }
 .sidebar-title{
     display: flex;
@@ -45,13 +74,16 @@ body{
     align-items: center;
     padding: 20px 20px 20px 20px;
     margin-bottom: 30px;
+    width: 100%;
 }
 .sidebar-brand{
     margin-top: 15px;
     font-size: 20px;
     font-weight: 700;
+    
 
 }
+
 .sidebar-title > span{
     display: none;
 }
@@ -101,28 +133,26 @@ body{
     justify-content: space-between;
     padding: 25px;
     box-sizing: border-box;
-    border: 1px solid #d2d2d3;
+    border: 1px solid #DBAE58;
     border-radius: 5px;
     box-shadow: 0 6px 7px -4px rgba(0,0,0,0.2);
 }
 .card:first-child{
     box-shadow: 0 6px 7px -4px rgba(0,0,0,0.2);
-    border-left: 7px solid blue;
+    border-left: 7px solid #f73e0b ;
 }
 .card:nth-child(2){
-    border-left: 7px solid red;
+    border-left: 7px solid #0091D5;
 }
 .card:nth-child(3){
-    border-left: 7px solid orange;
+    border-left: 7px solid #DBAE58 ;
 }
 .card:nth-child(4){
-    border-left: 7px solid green;
+    border-left: 7px solid #484848 ;
 }
-.card >span{
-    font-size: 20px;
-    font-weight: 600;
 
-}
+    
+
 .card-inner{
     display: flex;
     justify-content: space-between;
@@ -131,6 +161,13 @@ body{
 .card-inner >p{
     font-size: 18px;
 } 
+.card > span{
+    font-weight: 600;
+    font-size: 20px;
+}
+.text-green{
+    background-color: green;
+}
 .charts{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -140,7 +177,7 @@ body{
     margin-bottom: 20px;
     padding: 25px;
     box-sizing: border-box;
-    border: 1px solid blue;
+    border: 2px solid #0091D5;
 }
 .chart-title{
     display: flex;
