@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    font-size: 1.5rem;
+
+    margin: 10px;
+    padding: 20px;
+    align-items: center;
+
+}
+.logo{
+
+
+
+    font-size: 1.5rem;
+
+}
+.hero{
+    display: flex;
+
+}
+hr{
+    width: 400px;
+    height: 70px;
+    border: solid 10px #000;
+    border-color: #ff4a11 transparent transparent transparent;
+    border-radius: 50%/100px 10px 0 0;
+    padding: 10px;
+    margin-left: -30px;
+
+}
+.nav-logo-2{
+    font-weight: bold;
+
+}
+.logo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+nav.logo i{
+
+    padding: 10px;
+    margin: 5px;
+
+}
+nav ul{
+    
+    margin-left: -20px;
+    margin: 0 auto;
+
+}
+nav ul li{
+
+    
+    display: inline-block;
+    /* line-height: 80px; */
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #000;
+    padding: 7px 13px;
+}
+nav.nav-items{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 10px;
+    
+}
+.nav-items a{
+    color: #000;
+}
+
+.btn{
+    padding: 15px;
+    border: 2px solid #ff4a11;
+
+    cursor: pointer;
+}
+.btn:hover{
+background-color: #ff4a11;
+border-radius: .5rem;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0 0 12px;
+    
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 30px;
+
+
+
+
+}
+.card{
+    width: 100%;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    align-items: center;
+    padding: 10px 20px;
+
+
+
+
+
+}
+.card-1{
+    width: 30%;
+    padding: 10px;
+    margin-left: 20%;
+    padding: 15px;
+
+
+
+}
+.card-1 h1{
+    font-size: 5rem;
+    font-weight: bold;
+    border: 0;
+
+
+
+
+    
+}
+.card-1 p{
+    font-size: 1.3rem;
+}
+
+.card-2{
+
+    width: 50%;
+    height: 65vh;
+    align-items: center;
+    
+}
+
+.card-2 img{
+
+
+    height: 75vh;
+    border-radius: 1.5rem;
+    padding: 10px;
+
+}
+.btn-2{
+    font-size: 1rem;
+    background-color: #ff4a11;
+    border: 1px solid #ff4a11;
+    color: #fff;
+    border-radius: .5rem;
+    padding: 10px;
+}
+.btn-3{
+    font-size: 1rem;
+    color: #ff4a11;
+    border-radius: .5rem;
+    padding: 10px;
+    border: 1px solid #ff4a11;
+}
