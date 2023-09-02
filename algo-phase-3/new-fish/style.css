@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+
+
 }
 nav{
     display: flex;
@@ -80,6 +82,34 @@ nav.nav-items{
 .nav-items a{
     color: #000;
 }
+ul{
+    list-style: none;
+} 
+.part-3 ul.a li::before{
+    content: '\f00c';
+    margin-right: 1em;
+    color: #000;
+}
+
+.card-1 ul.a li{
+    list-style-type: none;
+    color: #8c8888;
+  }
+  
+  .a li::before {
+    content: "\f105";
+    font-family: "FontAwesome";
+    margin-right: 1em;
+    padding: 5px;
+    
+  }
+  
+  
+
+
+
+
+
 
 .btn{
     padding: 15px;
@@ -94,6 +124,7 @@ border-radius: .5rem;
 .container{
     width: 100%;
     height: 100vh;
+    
 }
 .cards{
     display: flex;
@@ -171,6 +202,7 @@ border-radius: .5rem;
 .btn-2{
     font-size: 1rem;
     background-color: #ff4a11;
+
     border: 1px solid #ff4a11;
     color: #fff;
     border-radius: .5rem;
@@ -185,7 +217,7 @@ border-radius: .5rem;
 }
 .partner-div{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 10px;
     margin: 0 auto;
@@ -216,4 +248,79 @@ border-radius: .5rem;
       margin-left: 0%;
       width: 100%;
     }
+  }
+  .part-3{
+
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+  }
+  .part-3 ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    position: relative;
+  }
+  .img-2{
+    position: relative;
+    margin: 3%;
+    color: rgb(253, 240, 237);
+    font-size: 2rem;
+  }
+  .img-2 img{
+    margin: 0 auto;
+    border-radius: .5rem;
+    align-items: center;
+    height: 50vh;
+    padding: 20px;
+
+  }
+ .img-2 .top-right{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  .img-2 .center button{
+    position: absolute;
+    top: 18px;
+    left: 60%;
+
+ 
+    text-align: center;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    padding: 8px;
+    margin: 20px;
+
+    
+
+
+  }
+  h1{
+    font-size: 4rem;
+    color: #ff4a11;
+    padding: 10px;
+
+  }
+  h1 span{
+    color: #000;
+  }
+  .part-3 p{
+    font-size: 1.3rem;
+    padding: 20px;
+    margin: 10px;
+  }
+  .img-2 .top-left{
+    position: absolute;
+    top: 15px;
+    left: 10%;
+  }
+  .img-2 .top-left button{
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    padding: 8px;
+    margin: 20px;
+    background-color: #ff4a11;
+    border: #ff4a11;
+    
   }
