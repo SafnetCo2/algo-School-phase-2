@@ -101,7 +101,7 @@ border-radius: .5rem;
     padding: 12px 0 0 12px;
     
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     margin-bottom: 30px;
 
 
@@ -110,10 +110,10 @@ border-radius: .5rem;
 }
 .card{
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-flow: wrap;
     align-items: center;
@@ -126,9 +126,10 @@ border-radius: .5rem;
 }
 .card-1{
     width: 30%;
-    padding: 10px;
-    margin-left: 20%;
-    padding: 15px;
+    margin: 10px auto;
+
+
+    
 
 
 
@@ -152,6 +153,10 @@ border-radius: .5rem;
     width: 50%;
     height: 65vh;
     align-items: center;
+
+
+
+
     
 }
 
@@ -178,3 +183,37 @@ border-radius: .5rem;
     padding: 10px;
     border: 1px solid #ff4a11;
 }
+.partner-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+.partner-1{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-direction: alternate;
+    font-size: .5rem;
+
+    padding-top: 40px;
+    padding-bottom: 64px;
+
+}
+
+
+
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
