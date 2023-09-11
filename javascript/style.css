@@ -1,0 +1,20 @@
+.blue {
+  color: blue;
+}
+.big {
+  font-size: 2rem;
+}
+#scrollable {
+  position: relative;
+  background-color: skyblue;
+  height: 70px;
+  padding: 10px;
+  border: 5px solid #000;
+  margin: 1em;
+  overflow: auto;
+}
+#body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
