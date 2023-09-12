@@ -32,8 +32,15 @@ let result2 = nonIntegerString.charAt(6.9);
 console.log('character at index  6.9 is: ' + result2);
 /**Here, the non-integer index values 6.3 and 6.9 are converted to the nearest integer index 6. So both string.charAt(6.3) and string.charAt(6.9) return "W" just like string.charAt(6).
 
- */
+Example 3: Without passing parameter in charAt()
 
+
+ */
+let sentence = 'happy birthday herry';
+let index4 = sentence.charAt();
+console.log(index4.toUpperCase());
+console.log(sentence.toUpperCase());
+console.log(index4);//pass 0 index
 
 
 
