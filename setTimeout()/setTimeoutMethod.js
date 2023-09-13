@@ -15,11 +15,13 @@ function showTime() {
     // return new date and time
     let dateTime = new Date();
     // returns the current local time
-    let time = dateTime.toLocaleDateString();
+    let time = dateTime.toLocaleTimeString();
     console.log(time);
     //display the time after 3 seconds
     setTimeout(showTime, 3000);
 
 }
+//call the function
 showTime();
 //hit ctrl + c to exit
+
