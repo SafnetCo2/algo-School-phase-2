@@ -19,7 +19,7 @@ function greet(name, lastname) {
     console.log('Hello' + ' ' + name + ' ' + lastname);
 }
 //passing argument to setTimeout
-setTimeout(greet, 1000, 'Josephine');
+setTimeout(greet, 1000, 'Josephine', 'jody');
 
 
 
