@@ -1,6 +1,6 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
   outline: none;
   border: none;
@@ -13,7 +13,7 @@ body {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 240px;
+  width: 110px;
   height: 100vh;
   padding: 0 2.4rem;
   color: #fff;
@@ -21,21 +21,27 @@ body {
   transition: all 0.5s linear;
   overflow: hidden;
 }
+.sidebar:hover {
+  width: 240px;
+  transition: 0.5s;
+}
 .logo {
   height: 80px;
   padding: 16px;
 }
 .menu {
   height: 88px;
-  position: relative;
+  /* position: relative; */
   list-style: none;
   padding: 0;
 }
 .menu li {
-  padding: 1rem;
+  position: relative;
+  padding: 2rem;
   margin: 8px 0;
   border-radius: 8px;
   transition: all 0.5s ease-in-out;
+  align-items: center;
 }
 .menu li:hover,
 .active {
@@ -44,10 +50,115 @@ body {
 
 .menu a {
   color: #fff;
-  /* font-size: 14px; */
+  font-size: 1.5rem;
+  position: absolute;
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-size: 1rem;
+  gap: 1.5rem;
+}
+.menu a span {
+  overflow: hidden;
+}
+.menu a i {
+  font-size: 1.5rem;
+}
+li.logout {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.main--content {
+  position: relative;
+  background-color: #eee;
+  width: 100%;
+  padding: 1rem;
+}
+.header--wrapper img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.header--wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 2rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.header--title {
+  color: rgb(97, 94, 187);
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.search--box {
+  background-color: rgb(237, 237, 237);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 12px;
+}
+.search--box input {
+  padding: 10px;
+  background: transparent;
+}
+.search--box i {
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.5s easeout;
+}
+.search--box i:hover {
+  transform: scale(1, 1);
+}
+.card--container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.card--wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.main--title {
+  color: rgb(97, 94, 187);
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+.payment--card {
+  background-color: #e1dddd;
+  border-radius: 10px;
+  padding: 1.2rem;
+  width: 290px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.5s ease-in-out;
+}
+.payment--card:hover {
+  transform: translateY(-5px);
+}
+.card--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.amount {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-size: 12px;
+  font-weight: 200;
 }

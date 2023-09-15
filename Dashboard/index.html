@@ -17,8 +17,8 @@
     <div class="sidebar">
       <div class="logo"></div>
       <ul class="menu">
-        <li>
-          <a href="#" class="active"
+        <li class="active">
+          <a href="#"
             ><i class="fa fa-tachometer" aria-hidden="true"></i>
             <span>Dashboard</span>
           </a>
@@ -59,13 +59,43 @@
             <span>Settings</span>
           </a>
         </li>
-        <li>
+        <li class="logout">
           <a href="#"
             ><i class="fa fa-sign-out" aria-hidden="true"></i>
             <span>Logout</span>
           </a>
         </li>
       </ul>
+    </div>
+    <div class="main--content">
+      <div class="header--wrapper">
+        <div class="header--title">
+          <span>Primary</span>
+          <h2>Dashboard</h2>
+        </div>
+        <div class="user--info">
+          <div class="search--box">
+            <i class="fa-solid fa-search"></i>
+            <input type="text" placeholder="search" />
+            <img src="assets/user.jpg" alt="user" />
+          </div>
+        </div>
+      </div>
+      <div class="card--container">
+        <h3 class="main--title">Today's data</h3>
+        <div class="card--wrapper">
+          <div class="payment--card">
+            <div class="card--header">
+              <div class="amount">
+                <span class="title"> payment amount </span>
+                <span class="amount-value">$500.00</span>
+              </div>
+              <i class="fas fa-dollar-sign icon"></i>
+            </div>
+            <span class="card-detail">**** **** ****3284</span>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="script.js"></script>
