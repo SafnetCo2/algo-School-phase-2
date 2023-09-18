@@ -162,3 +162,20 @@ li.logout {
   font-size: 12px;
   font-weight: 200;
 }
+.amount--.card-detailvalue {
+  font-size: 24px;
+  height: 600;
+}
+.icon {
+  color: #fff;
+  padding: 1rem;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 1.8;
+  background-color: red;
+}
+.card-detail{
+  
+}
