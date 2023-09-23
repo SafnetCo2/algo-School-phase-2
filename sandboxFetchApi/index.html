@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fetch Api</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="display-4 mb-4">
+        Fetch Api Sandbox practice by traversy media
+      </h1>
+
+      <div class="d-flex gap-3">
+        <button class="btn btn-primary mr-4" id="getText">get Text</button>
+        <button class="btn btn-success mr-4" id="getUsers">get Json</button>
+        <button class="btn btn-warning mr-4" id="getPosts">Get API DATA</button>
+      </div>
+      <hr class="w-50" />
+      <div id="output"></div>
+      <form id="addPost">
+        <div class="form-group">
+          <input
+            type="text"
+            id="title"
+            class="form-control mb-3 w-50"
+            placeholder="title"
+          />
+        </div>
+        <div class="form-group">
+          <textarea
+            id="body"
+            class="form-control w-50 mb-3"
+            placeholder="body"
+          ></textarea>
+        </div>
+        <input type="submit" class="btn btn-secondary" value="submit" />
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
