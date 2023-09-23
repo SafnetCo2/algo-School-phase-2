@@ -49,7 +49,7 @@ function getPost() {
             let output = '<h3>Users</h3>';
             data.forEach(function (post) {
                 output +=
-                    `<div>
+                    `<div class='card card-body mb-3'>
                         <h3>${post.title}</h3>
                         <p>${post.body}</p>
                     </div>
