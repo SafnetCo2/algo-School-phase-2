@@ -25,7 +25,7 @@ function getUsers() {
     fetch('user.json')
         .then((res) => res.json())
         .then((data) => {
-            let output = '<h2>Users</h2>';
+            let output = '<h2 h3 class = "mb-4">Users</h2>';
             //console.log(data);
             data.forEach(function (user) {
                 output += `
@@ -46,7 +46,7 @@ function getPost() {
     fetch('https://jsonplaceholder.typicode.com/posts')
         .then((res) => res.json())
         .then((data) => {
-            let output = '<h3>Users</h3>';
+            let output = '<h3 class = "mb-4">Post</h3>';
             data.forEach(function (post) {
                 output +=
                     `<div class='card card-body mb-3'>
