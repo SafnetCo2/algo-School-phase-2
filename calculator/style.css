@@ -31,7 +31,6 @@
   margin: 10px;
 }
 form .display {
- 
   display: flex;
   justify-content: flex-end;
   margin: 20px 0;
@@ -44,4 +43,8 @@ form .display input {
 }
 form input.equal {
   width: 145px;
+  text-align: center;
+}
+form input.operator {
+  color: #33ffd8;
 }
