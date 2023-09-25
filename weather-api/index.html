@@ -4,31 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather Api</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Weather Api practice</h1>
+    <h1>Weather API practice</h1>
     <div class="container">
-      <div class="weather-input">
-        <h3>Enter a city of your choice</h3>
-        <input type="text" placeholder="London, Nairobi, Kiev...." />
-        <div class="separator"></div>
-        <button class="locator">Use Current Location</button>
-      </div>
-      <div class="weather-data">
-        <div class="details">
-          <h2>London(2023-06-2023)</h2>
-          <h4>Temperature:25°C</h4>
-          <h4>Humidity:79%</h4>
-          <h4>Wind : 4.31M/S</h4>
-        </div>
-        <div class="icons">
-          <img
-            src="https://openweathermap.org/img/wn/10d@4x.png"
-            alt="weather"
-          />
-          <h3>Moderate rains</h3>
-        </div>
+      <div class="place-details">
+        <h3>Enter a City Name</h3>
+
+        <input
+          type="text"
+          class="city"
+          id="city-name"
+          placeholder="London, Nairobi, Kathmandu...."
+        />
+
+        <button type="submit" class="search">Search</button>
+
+        <div class="hr-div">or</div>
+        <button type="button" class="location">Use Current Location</button>
       </div>
     </div>
   </body>

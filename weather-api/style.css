@@ -1,3 +1,62 @@
 * {
   padding: 0;
-margin: 0;}
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  background-color: rgb(150, 170, 199);
+  text-transform: capitalize;
+  margin-top: 1px;
+  padding: 10px;
+  font-size: 2rem;
+}
+h3 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+body {
+  background: url(assets/8768075.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.container .place-details {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+
+  border: 2px solid gray;
+}
+input {
+  color: #000;
+}
+.city,
+.search,
+.location {
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin: 10px;
+  border: none;
+  background-color: rgb(252, 229, 183);
+}
+
+.search:hover,
+.location:hover {
+  background-color: #eee;
+}
+.city {
+  margin: 10px;
+
+  padding: 10px;
+  align-items: center;
+}
