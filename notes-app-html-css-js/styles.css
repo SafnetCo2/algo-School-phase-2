@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #cf9aff, #95c0ff);
+  color: #fff;
+  padding: 4%;
+  padding: 10%;
+  align-items: center;
+}
+.start {
+  margin: 20px;
+  padding: 20px;
+  margin: 0 auto;
+}
+button {
+  border-radius: 10%;
+  padding: 20px;
+}
+.container h1 {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+.container img {
+  width: 60px;
+}
+.notes-container .input-box {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  padding: 20px;
+  margin: 20px;
+  outline: none;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+.input-box img {
+  width: 25px;
+  bottom: 15px;
+  right: 15px;
+  position: absolute;
+  cursor: pointer;
+}
