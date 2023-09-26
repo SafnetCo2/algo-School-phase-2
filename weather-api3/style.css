@@ -71,3 +71,11 @@ body {
 .humidity {
   font-size: 1.4rem;
 }
+.error {
+  color: red;
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 5px;
+  display: none;
+  font-size: 2rem;
+}

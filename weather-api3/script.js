@@ -5,6 +5,14 @@ const image = document.querySelector('.icon');
 
 async function getWeather(city) {
     const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=0e00bd881c455a9ddefa89f35634fe82&units=metric`);
+    if (res.status == 404) {
+        document.querySelector('.error').style.display = 'block'
+    } else {
+        document.querySelector('.error').style.display = 'none'
+    }
+
+
+
     let data = await res.json();
     console.log(data);
     document.querySelector('.celcius').innerHTML = Math.round(data.main.temp) + ''+ '°c';
@@ -21,7 +29,7 @@ async function getWeather(city) {
     } else if (data.weather[0].main == 'Wind') {
         image.src = "./assets/wind.png"
 
-    } else if (data.weather[0].main == 'rain') {
+    } else if (data.weather[0].main == 'rainy') {
         image.src = "./assets/rains.png"
 
     } else if (data.weather[0].main == 'Sunny') {
