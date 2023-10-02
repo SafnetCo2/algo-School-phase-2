@@ -35,11 +35,7 @@
 .display input {
   text-align: right;
   flex: 1;
-  background-color: rgb(3, 246, 3);
 }
 form input.equal {
   width: 145px;
-}
-form input .operator{
-    background-color:  rgb(3, 246, 3);
 }
