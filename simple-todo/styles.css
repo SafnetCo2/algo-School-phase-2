@@ -4,5 +4,15 @@
   box-sizing: border-box;
 }
 .container {
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orange;
+  gap: 2rem;
+  margin-top: 40px;
+}
+input,
+button {
+  font-size: 2rem;
+  border-radius: 0.5rem;
 }
