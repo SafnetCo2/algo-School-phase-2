@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.clock {
+  /* background-image: url(/sonja-langford-eIkbSc3SDtI-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; */
+  display: flex;
+  color: rgba(8, 3, 29, 0.895);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(5, 45, 5);
+
+  text-decoration: bold;
+}
+h2 {
+  margin-top: 30px;
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 4px;
+}
+.clock div {
+  margin: 40px;
+  padding: 30px;
+  border: 3px solid rgb(240, 32, 32);
+  border-radius: 0.5rem;
+}
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 5rem;
+  height: 80px;
+  width: 100px;
+  text-shadow: 2px 2px 4px rgb(25, 3, 3);
+}
+.text {
+  font-size: 2rem;
+  background-color: rgb(28, 108, 173);
+  color: #fff;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 0.5rem;
+  /* margin: 5px; */
+}
