@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+  background-image: url(/icons8-team-dhZtNlvNE8M-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 2rem;
+  text-align: center;
+}
+.clock h2 {
+  position: relative;
+  display: flex;
+  margin-bottom: 33rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.clock div {
+  border: 2px solid black;
+  margin: 10px;
+  color: #02041f;
+}
+span {
+  margin: 5px;
+  height: 80px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.text {
+  height: 30px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
