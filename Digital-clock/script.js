@@ -1,6 +1,7 @@
 const hourElements = document.getElementById('hour');
 const minutesElements = document.getElementById('minutes');
 const secondElements = document.getElementById('seconds');
+const ampm = document.getElementById('ampm')
 
 //function update time
 function updateTime() {

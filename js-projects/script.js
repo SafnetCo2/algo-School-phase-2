@@ -11,9 +11,11 @@ function clockUpdate() {
     let s = new Date().getSeconds();
     let ampm = 'AM';
     if (hour > 12) {
-        hour = hour - 12
+        hour = hour - 12;
         ampm = 'PM';
         
+
+    
     }
     //create 00
     hour = hour < 10 ? '0' + hour : hour;
@@ -25,9 +27,10 @@ function clockUpdate() {
     hourE1.innerText = hour;
     minutesE1.innerText = min;
     secondsE1.innerText = s;
+    ampmE1, (innerText = ampm);
 
     setTimeout(() => {
-        clockUpdate()
+        clockUpdate();
         
     }, 1000);
 
