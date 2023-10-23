@@ -5,7 +5,7 @@ const scoreEl = document.getElementById('score');
 
 
 
-const formEl = document.getElementById('form')
+const formEl = document.getElementById('form');
 
 
 
@@ -14,8 +14,10 @@ if (!score) {
     score = 0;
 }
 scoreEl.innerText = `score: ${score}`;
-questionEl.innerText = `what is ${num1} multiplied ${num2}?`;
-const inputEl= document.getElementById('form')
+
+questionEl.innerText = `what is ${num1} multipliedby  ${num2}?`;
+
+const inputEl= document.getElementById('input')
 
 const correctAns = num1 * num2;
 
@@ -24,15 +26,17 @@ formEl.addEventListener('submit', () => {
     // console.log(userAns, typeof userAns);
     if (userAns === correctAns) {
         score++;
-        updateStorage();
+        updateLocalStorage();
+    
 
         
     } else {
         score--;
-        updateStorage();
+        updateLocalStorage();
+
     }
 });
-function updateStorage() {
-    updateStorage.setItem('score', JSON.stringify(score));
+function updateLocalStorage() {
+    localStorage.setItem('score', JSON.stringify(score));
 }
 
