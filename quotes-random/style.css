@@ -21,7 +21,19 @@ body {
 }
 p {
   font-size: 1.3rem;
-  background-color: red;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+button {
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  color: green;
+  cursor: pointer;
+}
+button:hover {
+  background-color: gray;
+  cursor: pointer;
 }
 i {
   font-size: 1rem;
