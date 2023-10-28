@@ -3,6 +3,7 @@ const authorName = document.getElementById('author');
 const buttons = document.getElementById('btn');
 
 
+
 const url = ('https://dummyjson.com/quotes/random');
 let getQ = () => {
     fetch(url)
@@ -19,3 +20,5 @@ window.addEventListener('load', getQ);
 
 buttons.addEventListener('click', getQ);
 
+//date
+document.querySelector('#Last-updated').textContent=`Last-updated ${document.lastModified}`

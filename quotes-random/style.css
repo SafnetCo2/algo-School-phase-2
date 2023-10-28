@@ -12,6 +12,20 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  border: 3px solid green;
+  height: 50vh;
+  width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin: 0 auto;
+}
+#Last-updated {
+  font-size: 1rem;
+  text-align: end;
+  letter-spacing: 0.2rem;
+  margin: 0 auto;
+  font-weight: bold;
+
+  padding: 10px;
 }
 .container h1 {
   font-size: 2rem;
@@ -28,7 +42,8 @@ p {
 button {
   font-size: 2rem;
   border-radius: 0.5rem;
-  color: green;
+  color: #fff;
+  background-color: green;
   cursor: pointer;
 }
 button:hover {
