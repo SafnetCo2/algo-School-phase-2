@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-shadow: rgb(255, 255, 255);
+  letter-spacing: 1.3px;
+}
+p {
+  font-size: 1.3rem;
+  background-color: red;
+}
+i {
+  font-size: 1rem;
+}
+i.fa-quote-left:first-child {
+  margin: 3px 10px 0 0;
+}
+i.fa-quote-right:last-child {
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 3px 10px;
+}
