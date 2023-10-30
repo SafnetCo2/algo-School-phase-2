@@ -1,0 +1,9 @@
+.flexible-grid {
+  outline: 5px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.flexible-grid > *{
+flex: 1;
+}
