@@ -25,5 +25,5 @@ console.log(admin);
 //logic
 let hour = 9;
 if (hour < 9 || hour < 10) {
-    alert('office clost')
+    console.log('office clost')
 }
