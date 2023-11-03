@@ -27,13 +27,13 @@ body {
   height: 300px;
   border: 2px solid red;
 }
-.clock.number {
-
+.clock .number {
+    --rotation: 0; 
   position: absolute;
   width: 100%;
   height: 100%;
   text-align: center;
-  transform: rotate(30deg);
+
   transform: rotate(var(--rotation));
 }
 .clock .number1 {
