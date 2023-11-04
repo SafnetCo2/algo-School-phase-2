@@ -53,6 +53,10 @@ formEl.addEventListener('submit', (event) => {
         weatherDataEl.querySelector('.details').innerHTML = details.map((detail)=>`<div>${detail}</div>`).join("");
         
     } catch (error) {
+        weatherDataEl.querySelector('.icon').innerHTML = '';
+        weatherDataEl.querySelector('.temperature').textContent = '';
+        weatherDataEl.querySelector('.description').textContent = 'an error happened try again';
+        weatherDataEl.querySelector('.details').innerHTML = '';
         
     }
     
