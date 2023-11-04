@@ -27,3 +27,8 @@ let hour = 9;
 if (hour < 9 || hour < 10) {
     console.log('office clost')
 }
+let user = {     // an object
+  name: "John",  // by key "name" store value "John"
+  age: 30        // by key "age" store value 30
+};
+alert(name)
