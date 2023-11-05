@@ -1,7 +1,6 @@
 const acesskey = "-x0YWnt2RoYDcRGGK3sOqltYGXTdPeGhDCg2i1164dI";
 const formEl = document.querySelector("form");
 const searchinputEl = document.getElementById("search-input");
-
 const searchResultsEl = document.querySelector(".search-results");
 const btnshowMore = document.getElementById("show-more");
 
@@ -23,9 +22,11 @@ async  function searchImage() {
     results.map((result) => {
         const imageWrapper = document.createElement("div");
         imageWrapper.classList.add("search-result");
-        const image = document.createElement("img")
+
+        const image = document.createElement("img");
         image.src = result.urls.small;
         image.alt = result.alt_description;
+
         const imageLink = document.createElement('a');
         imageLink.href = result.links.html;
         
@@ -67,5 +68,5 @@ formEl.addEventListener("submit", (e) => {
 });
 
 btnshowMore.addEventListener("click", () => {
-    searchImage()
+    searchImage();
 });
