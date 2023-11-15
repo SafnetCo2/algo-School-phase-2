@@ -53,6 +53,11 @@ button:hover {
   background-color: #0074d9;
   color: #fff;
 }
+.cat-left-inner-ear {
+  border-left: 20px soild transparent;
+  border-right: 20px soild transparent;
+  border-bottom: 4opx soild #3bb34f;
+}
 .equal {
   background-color: #01ff70;
   grid-row: span 3;
