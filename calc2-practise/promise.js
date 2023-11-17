@@ -6,9 +6,17 @@
 c
 
 }); */
+
+// const makeServerRequest = new ServerRequest((resolve, reject) => {
+    
+// });
+
 const myPromise = new Promise((resolve, reject) => {
-    
+    if (condition_here) {
+        resolve('promise is fulfilled');
+    } else {
+        reject('not fulfilled');
+    }
 });
-const makeServerRequest = new ServerRequest((resolve, reject) => {
-    
-});
+myPromise.then(result => console.log(result));
+myPromise.catch(error => console.log(error));
